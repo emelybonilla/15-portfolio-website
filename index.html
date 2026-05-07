@@ -98,10 +98,12 @@
         text-align: center;
       }
 
-      .article-card {
+        .article-card {
+       margin: 0 auto;
+       max-width: 700px;
         border: none;
-        background: transparent;
-        transition: transform 0.3s ease;
+       background: transparent;
+       transition: transform 0.3s ease;
       }
 
       .article-card:hover {
@@ -109,10 +111,11 @@
       }
 
       .article-card img {
-        height: 300px;
-        width: 100%;
+        height: 600px;
         object-fit: cover;
         border-radius: 4px;
+        transition: opacity 0.3s ease;
+        opacity: 1;
       }
 
       .card-body {
