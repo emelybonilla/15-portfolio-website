@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Emely Bonilla</title>
+   <style>
+  body {
+    font-family: 'EB Garamond', serif;
+    background-color: #faf9f7;
+    color: #222;
+    line-height: 1.7;
+  }
+
+  /* ── HERO ── */
+
+  .hero-header {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    color: white;
+
+    background:
+      linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.45)),
+      url("images/Shore.JPG");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .hero h1 {
+    font-family: 'EB Garamond', serif;
+    font-size: 7rem;
+    font-weight: 700;
+    letter-spacing: -1px;
+    margin-bottom: 1.25rem;
+    color: white;
+  }
+
+  .hero .lead {
+    font-size: 4rem;
+    color: rgba(255,255,255,0.9);
+    margin-top: 0;
+    margin-bottom: 1.25rem;
+    max-width: 620px;
+    line-height: 1.7;
+  }
+
+  .hero .location {
+    font-size: 1.1rem;
+    color: rgba(255,255,255,0.9);
+    margin-top: 1.5rem;
+  }
+
+  .hero-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3rem;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.hero-text {
+  color: white;
+}
+
+.hero-title {
+  font-family: 'EB Garamond', serif;
+  font-size: 5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  color: white;
+}
+
+.hero-subtitle {
+  font-size: 4rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: rgba(255,255,255,0.9);
+}
+
+.hero-description {
+  font-size: 3rem;
+  line-height: 1.8;
+  color: rgba(255,255,255,0.9);
+}
+
+.hero-socials {
+  font-size: 2.5rem;
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.hero-socials a {
+  color: white;
+  font-size: 2.5rem;
+  text-decoration: none;
+  opacity: 0.85;
+  transition: opacity 0.2s;
+}
+
+  .profile-img {
+  width: 500px;
+
+  flex-shrink: 0;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.4);
+  }
+
+  .section-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+
+  .section p {
+    font-size: 1.75rem;
+    color: #000000;
+  }
+
+  .article-card {
+    margin: 0 auto;
+    max-width: 700px;
+    border: none;
+    background: transparent;
+    transition: transform 0.3s ease;
+  }
+
+  .article-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .article-card img {
+    height: 600px;
+    object-fit: cover;
+    border-radius: 4px;
+    transition: opacity 0.3s ease;
+    opacity: 1;
+  }
+
+  .card-body {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .card-title {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.6rem;
+    line-height: 1.3;
+    margin-top: 1rem;
+  }
+
+  .card-title:hover {
+    opacity: 0.7;
+  }
+
+  .card-text {
+    font-size: 1.5rem;
+    color: #000000;
+    margin-top: 0.75rem;
+  }
+
+  .text-muted {
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  .btn-dark {
+    background: transparent;
+    color: black;
+    border: 1px solid black;
+    border-radius: 0;
+    padding: 0.7rem 1.4rem;
+    transition: all 0.3s ease;
+  }
+
+  .btn-dark:hover {
+    background: black;
+    color: white;
+  }
+
+  footer {
+    margin-top: 5rem;
+    color: #777;
+  }
+</style>
+</head>
+
+<body>
+
+<!-- HERO -->
+<header class="hero-header">
+    <div class="overlay"></div>
+   <div class="hero-content">
+      <div class="hero-inner">
+
+ <!-- Profile Image -->
+       <div class="hero-inner"></div>
+        <img src="images/Headshot.PNG"
+        alt="Emely Bonilla"
+        class="profile-img">
+      </div>
+
+      <!-- Text RIGHT -->
+      <div class="hero-text">
+        <h1 class="hero-title">Emely Bonilla</h1>
+        <p class="hero-subtitle">Journalist and Science Communicator</p>
+        <p class="hero-description">I am an interdisciplinary graduatestudent getting my master's in both Public Health and Journalism at the University of California, Berkeley. I write about health, science, and research for a general audience. 
+          My work has been published in The Los Angeles Times and I currently work as Editorial Assistant for the Associated Press. Below are a few of my favorite stories.</p>
+          <p class="hero-description">
+          Located in California
+          </p>
+
+          <div class="hero-socials">
+        <a href="mailto:emsbonilla4@gmail.com">✉ Email</a>
+        <a href="http://www.linkedin.com/in/emely-bonilla-06a622266/" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ARTICLES -->
+  <section class="py-5">
+    <div class="row g-5 justify-content-center">
+   <div class="col-lg-5 col-md-6 text-center">
+    <div class="card article-card border-0 shadow-sm">
+
+    <!-- Article 1 -->
+        <img src="images/Oakland-North.png" class="card-img-top" alt="Vegetables avaliable at a food pantry in Oakland, California.">
+        <div class="card-body">
+          <h5 class="card-title">
+         <a href="https://oaklandnorth.net/2025/11/01/organizations-pump-up-alameda-county-food-fund-to-help-snap-recipients-during-shutdown/"
+          target="_blank"
+          class="text-dark text-decoration-none">
+
+          Organizations pump up Alameda County food fund to help SNAP recipients during shutdown.
+         </a>
+          </h5>
+          <p class="text-muted">Oakland North</p>
+          <p class="card-text">
+            Alameda County announced Friday that it has secured $1.5 million in emergency funding to support residents who receive SNAP benefits, which have been delayed by the federal government shutdown. The county’s Community Food Bank will distribute the funds to local food pantries and other organizations that provide food assistance to low-income residents, according to a press release from Alameda County. The funding will help ensure that people who rely on SNAP benefits can still access food during the shutdown, which has left many without their usual support. The county is also working with state and federal officials to find additional resources to assist those affected by the shutdown.
+           </p>
+            </div>
+           </div>
+           </div>
+
+    <!-- Article 2 -->`
+     <div class="row g-5 justify-content-center">
+      <div class="col-lg-5 col-md-6 text-center">
+      <div class="card article-card border-0 shadow-sm">
+          <img src="images/California-Science.png" class="card-img-top" alt="California Classroom">
+          <div class="card-body">
+          <h5 class="card-title">
+         <a href="https://www.latimes.com/opinion/story/2024-08-03/california-elementary-school-science-education-lacking"
+          target="_blank"
+          class="text-dark text-decoration-none">
+         Why aren't all California schools learning science?
+         </a>
+          </h5>
+          <p class="text-muted">Los Angeles Times</p>
+          <p class="card-text">
+            As a student teacher I witnessed extreme inequalities in how science is communicated and taught at California elementary schools.
+          </p>
+        </div>
+      </div>
+    </div>
+
+
+     <!-- Article 3 -->
+     <div class="row g-5 justify-content-center">
+      <div class="col-lg-5 col-md-6 text-center">
+      <div class="card article-card border-0 shadow-sm">
+         <img src="images/AI-Data-Center.png" class="card-img-top" alt="California Data Center">
+        <div class="card-body">
+        <h5 class="card-title">
+          <a href="https://www.latimes.com/opinion/story/2024-08-15/editorial-generative-ai-is-a-leading-contributor-to-our-energy-consumption-how-will-this-impact-our-climate"
+          target="_blank"
+          class="text-dark text-decoration-none">
+          Generative AI is an energy hog and that could hurt progress fighting climate change
+         </a>
+          </h5>
+          <p class="text-muted">Los Angeles Times</p>
+          <p class="card-text">
+            Artificial intelligence is one of the world’s fast-growing technologies, with Google, Microsoft, Meta, Apple and others rolling out generative AI models. 
+            It’s also one of the most energy-intensive technologies, and that is raising alarm that AI data centers’ thirst for electricity will increase planet-warming 
+            emissions and strain the electrical grid.
+          </p>
+        </div>
+      </div>
+    </div>
+
+     <!-- Article 4 -->
+     <div class="row g-5 justify-content-center">
+     <div class="col-lg-5 col-md-6 text-center">
+        <div class="card article-card border-0 shadow-sm">
+        <img src="images/Homeless-Youth.png" class="card-img-top" alt="Homeless Youth applying">
+        <div class="card-body">
+        <h5 class="card-title">
+         <a href="https://www.latimes.com/opinion/story/2024-07-03/editorial-fafsa-is-a-nightmare-for-homeless-students-why-havent-we-fixed-it"
+          target="_blank"
+          class="text-dark text-decoration-none">
+          FAFSA is a nightmare for homeless students. Why haven’t we fixed it?
+         </a>
+          </h5>
+          <p class="text-muted">Los Angeles Times</p>
+          <p class="card-text">
+            The Free Application for Federal Student Aid, or FAFSA, is an annual requirement that most college-bound and enrolled college students dread. 
+            But for homeless youth it can be a nightmare because the requirements don’t take into consideration their unique circumstances.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center py-4">
+  <p>© 2026 Emely Bonilla</p>
+</footer>
+
+<script src="css/bootstrap.bundle.min.js"></script>
+</body>
+</html>
